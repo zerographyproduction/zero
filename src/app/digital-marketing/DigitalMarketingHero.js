@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function DigitalMarketingHero() {
   const videoUrl =
-    'https://res.cloudinary.com/dd87wq4wp/video/upload/v1732300724/adroit_cover_for_zerography_webhq_hldpuk.mp4';
+    'https://res.cloudinary.com/dd87wq4wp/video/upload/v1735032382/videos/tdnqr5shd0qfdjn8onv8.mp4';
 
   return (
     <section className='min-h-[20vh] sm:min-h-screen relative flex items-center overflow-hidden'>

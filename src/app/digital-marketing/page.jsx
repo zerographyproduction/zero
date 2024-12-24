@@ -360,7 +360,7 @@ export default function DigitalMarketingPage() {
           <p className='text-xl text-gray-300 leading-relaxed'>
             At ZEROGRAPHY PRODUCTION,{' '}
             <span className='text-teal-400 font-medium'>
-              Powered by Adroit Media
+              Powered by Adroit Buzz
             </span>
             , We Elevate Your Business with Digital Marketing. Transform your
             online presence with expert digital marketing services. From SEO to

@@ -7,6 +7,7 @@ import nitin from '@/assets/team/nitin.jpg';
 import vipin from '@/assets/team/vipin.png';
 import saket from '@/assets/team/saket.jpg';
 import user from '@/assets/team/user.png';
+import gautam from '@/assets/team/gautam.jpeg';
 import { Volume2, VolumeX } from 'lucide-react';
 
 const TeamMemberCard = ({ image, name, role, description }) => (
@@ -69,7 +70,7 @@ const teamMembers = [
       'Saket excels in crafting seamless edits that enhance storytelling and keep audiences engaged. His dedication to detail and flair for pacing make him a master of video editing, motion graphics, and animation.',
   },
   {
-    image: user,
+    image: gautam,
     name: 'Gautam',
     role: 'Photographer',
     description:

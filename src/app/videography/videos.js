@@ -41,18 +41,18 @@ export const VIDEO_ITEMS = [
   //   category: 'events',
   //   description: 'Corporate gathering highlights',
   // },
-  // {
-  //   title: 'Backpackers',
-  //   videoId: 'a5rx0gaw7q0',
-  //   category: 'shows',
-  //   description: 'Travel adventure series',
-  // },
   {
-    title: 'Industry Event',
-    videoId: 'LIwleNZaumw',
-    category: 'events',
-    description: 'Business conference coverage',
+    title: 'Backpackers',
+    videoId: 'a5rx0gaw7q0',
+    category: 'shows',
+    description: 'Travel adventure series',
   },
+  // {
+  //   title: 'Industry Event',
+  //   videoId: 'LIwleNZaumw',
+  //   category: 'events',
+  //   description: 'Business conference coverage',
+  // },
   {
     title: 'Product Launch',
     videoId: 'PmX_y3ApaDs',
