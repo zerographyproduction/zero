@@ -111,7 +111,7 @@ const ServicesPage = () => {
     {
       icon: Share2,
       title: 'Digital Marketing',
-      description: 'Powered by Adroit Media - We Craft Your Digital Strategy',
+      description: 'Powered by Adroit Buzz - We Craft Your Digital Strategy',
       subServices: [
         {
           title: 'Search Engine Optimization (SEO)',
