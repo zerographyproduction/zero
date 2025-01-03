@@ -17,13 +17,7 @@ export const VIDEO_ITEMS = [
     category: 'brands',
     description: 'Corporate brand storytelling',
   },
-  {
-    title: 'MamaEarth Campaign',
-    videoId: 'eHpSFNNhn2s',
-    category: 'brands',
-    description: 'Natural skincare brand film',
-  },
-  {
+   {
     title: 'IDBI Federal Marathon',
     videoId: 'Ll846ArEzAQ',
     category: 'events',
