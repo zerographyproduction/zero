@@ -41,12 +41,7 @@ export const VIDEO_ITEMS = [
   //   category: 'events',
   //   description: 'Corporate gathering highlights',
   // },
-  {
-    title: 'Backpackers',
-    videoId: 'a5rx0gaw7q0',
-    category: 'shows',
-    description: 'Travel adventure series',
-  },
+  
   // {
   //   title: 'Industry Event',
   //   videoId: 'LIwleNZaumw',
@@ -65,35 +60,19 @@ export const VIDEO_ITEMS = [
     category: 'music',
     description: 'Hip-hop music video',
   },
-  {
-    title: 'Thana Sadar',
-    videoId: 'cIGYh-SQjkA',
-    category: 'shows',
-    description: 'Drama series production',
-  },
+ 
   // {
   //   title: 'Brand Story',
   //   videoId: '_QY7YDY7jPQ',
   //   category: 'brands',
   //   description: 'Corporate brand narrative',
   // },
-  {
-    title: 'Modern Parivar',
-    videoId: 'gJCenfE8qOg',
-    category: 'shows',
-    description: 'Family drama series',
-  },
+  
   {
     title: 'Corporate Film',
     videoId: '4P_0BSWME5E',
     category: 'brands',
     description: 'Business showcase video',
-  },
-  {
-    title: 'Roomies Season 3',
-    videoId: 'C8RKIBQoEng',
-    category: 'shows',
-    description: 'Comedy web series',
   },
   {
     title: 'Marketing Campaign',
