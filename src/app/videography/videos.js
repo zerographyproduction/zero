@@ -318,7 +318,6 @@ export const VIDEO_ITEMS = [
 export const CATEGORIES = [
   { id: 'all', label: 'All Works' },
   { id: 'brands', label: 'Brand Films' },
-  { id: 'shows', label: 'Web Series' },
   { id: 'events', label: 'Events' },
   { id: 'music', label: 'Music Videos' },
   { id: 'travel', label: 'Travel' },
