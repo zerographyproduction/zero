@@ -105,12 +105,6 @@ export const VIDEO_ITEMS = [
     description: 'Technology innovation film',
   },
   {
-    title: 'Corona Heist',
-    videoId: 'bpGCTZYfQG0',
-    category: 'films',
-    description: 'Short film production',
-  },
-  {
     title: 'Brand Campaign',
     videoId: 'ea2oVP1U4Fw',
     category: 'brands',
@@ -148,12 +142,7 @@ export const VIDEO_ITEMS = [
   //   description: 'Corporate film',
   //   platform: 'vimeo',
   // },
-  {
-    title: 'Unmaad',
-    videoId: 'kNTT4n67Ofs',
-    category: 'films',
-    description: 'Feature film production',
-  },
+
   // {
   //   title: 'Brand Story',
   //   videoId: 'qXAUCQp2xcw',
@@ -297,9 +286,8 @@ export const VIDEO_ITEMS = [
 export const CATEGORIES = [
   { id: 'all', label: 'All Works' },
   { id: 'brands', label: 'Brand Films' },
-  
   { id: 'events', label: 'Events' },
   { id: 'music', label: 'Music Videos' },
   { id: 'travel', label: 'Travel' },
-  { id: 'films', label: 'Films' },
+  
 ];
