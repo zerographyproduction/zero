@@ -233,12 +233,12 @@ export const VIDEO_ITEMS = [
     category: 'brands',
     description: 'Marketing campaign',
   },
-  {
-    title: 'Corporate Event',
-    videoId: 'ClL445zPZGo',
-    category: 'events',
-    description: 'Business event coverage',
-  },
+ //{
+ // title: 'Corporate Event',
+ //   videoId: 'ClL445zPZGo',
+ //   category: 'events',
+ //   description: 'Business event coverage',
+//  },
   {
     title: 'Brand Story',
     videoId: 'p9zWIfGkFuo',
