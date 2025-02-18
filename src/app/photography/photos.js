@@ -521,11 +521,11 @@ export const PHOTO_ITEMS = [
       'https://res.cloudinary.com/dd87wq4wp/image/upload/v1731837282/corporate_events/yg50wvwvrxdfhoyblrqw.webp',
     category: 'Corporate Events',
   },
-  {
-    image:
-      'https://res.cloudinary.com/dd87wq4wp/image/upload/v1731837279/corporate_events/sahkkgh1lw9ctixucrdv.webp',
-    category: 'Corporate Events',
-  },
+ // {
+ //    image:
+ //     'https://res.cloudinary.com/dd87wq4wp/image/upload/v1731837279/corporate_events/sahkkgh1lw9ctixucrdv.webp',
+ //   category: 'Corporate Events',
+ //  },
   {
     image:
       'https://res.cloudinary.com/dd87wq4wp/image/upload/v1731837279/corporate_events/hrlzwa0co7q24gxzhotd.webp',
