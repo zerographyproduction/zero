@@ -71,6 +71,12 @@ export default function Contact() {
                     >
                       +91 9540998320
                     </a>
+                     <a
+                      href='tel:+919899591626'
+                      className='text-gray-300 block hover:text-blue-400 transition-colors'
+                    >
+                      +91 9899591626
+                    </a>
                   </div>
                 </div>
               </div>
