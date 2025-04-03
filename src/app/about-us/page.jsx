@@ -58,7 +58,7 @@ const teamMembers = [
   {
     image: mehak,
     name: 'Mehak Malik',
-    role: 'Creative Hade',
+    role: 'Creative Head',
     description:
       'Mehak Malik, with her exceptional photography skills, crafts images that are both aesthetically stunning and deeply evocative. Her eye for detail ensures every frame communicates the intended message with clarity and style.',
   },
