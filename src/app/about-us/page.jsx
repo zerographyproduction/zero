@@ -77,7 +77,7 @@ const teamMembers = [
       'Gautam, our specialist in architectural photography, brings 8 years of experience capturing the essence of design and structure. With a keen eye for detail and a profound understanding of composition, he transforms spaces into visually compelling narratives.',
   },
   {
-    image: Arindam Roy,
+    image: Arindam,
     name: 'Arindam Roy',
     role: 'Sr. Creative Director, Writer',
     description:
