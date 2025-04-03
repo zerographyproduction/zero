@@ -76,21 +76,7 @@ const teamMembers = [
     description:
       'Gautam, our specialist in architectural photography, brings 8 years of experience capturing the essence of design and structure. With a keen eye for detail and a profound understanding of composition, he transforms spaces into visually compelling narratives.',
   },
-  {
-    image: user,
-    name: 'Parveen',
-    role: 'Video Editing, Motion Graphics, and Animation Expert',
-    description:
-      "Parveen specializes in motion graphics and animation, creating visually dynamic elements that add depth and energy to our projects. His innovative approach ensures every animation is not only visually stunning but also aligned with the project's narrative.",
-  },
-  {
-    image: user,
-    name: 'Parth',
-    role: 'Content Writer',
-    description:
-      'Parth, our skilled Content Writer, brings 5 years of experience in crafting compelling and impactful narratives. With a talent for weaving words into engaging stories, Parth plays a vital role in shaping the voice of our brand and projects.',
-  },
-  {
+   {
     image: user,
     name: 'Atharv Singh',
     role: 'Digital Marketing Partner',
