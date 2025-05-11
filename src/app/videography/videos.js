@@ -1,7 +1,7 @@
 export const VIDEO_ITEMS = [
   {
     title: '25 Years of Partnership | Gates Foundation',
-    videoId: 'v=T_bIUw7GdTU',
+    videoId: 'T_bIUw7GdTU',
     category: 'brands',
     description: '',
   },
@@ -47,7 +47,7 @@ export const VIDEO_ITEMS = [
   //   category: 'events',
   //   description: 'Corporate gathering highlights',
   // },
-  
+
   // {
   //   title: 'Industry Event',
   //   videoId: 'LIwleNZaumw',
@@ -66,14 +66,14 @@ export const VIDEO_ITEMS = [
     category: 'music',
     description: 'Hip-hop music video',
   },
- 
+
   // {
   //   title: 'Brand Story',
   //   videoId: '_QY7YDY7jPQ',
   //   category: 'brands',
   //   description: 'Corporate brand narrative',
   // },
-  
+
   {
     title: 'Corporate Film',
     videoId: '4P_0BSWME5E',
@@ -239,12 +239,12 @@ export const VIDEO_ITEMS = [
     category: 'brands',
     description: 'Marketing campaign',
   },
- //{
- // title: 'Corporate Event',
- //   videoId: 'ClL445zPZGo',
- //   category: 'events',
- //   description: 'Business event coverage',
-//  },
+  //{
+  // title: 'Corporate Event',
+  //   videoId: 'ClL445zPZGo',
+  //   category: 'events',
+  //   description: 'Business event coverage',
+  //  },
   {
     title: 'Brand Story',
     videoId: 'p9zWIfGkFuo',
@@ -295,5 +295,4 @@ export const CATEGORIES = [
   { id: 'events', label: 'Events' },
   { id: 'music', label: 'Music Videos' },
   { id: 'travel', label: 'Travel' },
-  
 ];
