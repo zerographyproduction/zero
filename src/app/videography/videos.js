@@ -47,12 +47,7 @@ export const VIDEO_ITEMS = [
   //   category: 'events',
   //   description: 'Corporate gathering highlights',
   // },
-  {
-    title: 'Backpackers',
-    videoId: 'a5rx0gaw7q0',
-    category: 'shows',
-    description: 'Travel adventure series',
-  },
+  
   // {
   //   title: 'Industry Event',
   //   videoId: 'LIwleNZaumw',
@@ -71,35 +66,19 @@ export const VIDEO_ITEMS = [
     category: 'music',
     description: 'Hip-hop music video',
   },
-  {
-    title: 'Thana Sadar',
-    videoId: 'cIGYh-SQjkA',
-    category: 'shows',
-    description: 'Drama series production',
-  },
+ 
   // {
   //   title: 'Brand Story',
   //   videoId: '_QY7YDY7jPQ',
   //   category: 'brands',
   //   description: 'Corporate brand narrative',
   // },
-  {
-    title: 'Modern Parivar',
-    videoId: 'gJCenfE8qOg',
-    category: 'shows',
-    description: 'Family drama series',
-  },
+  
   {
     title: 'Corporate Film',
     videoId: '4P_0BSWME5E',
     category: 'brands',
     description: 'Business showcase video',
-  },
-  {
-    title: 'Roomies Season 3',
-    videoId: 'C8RKIBQoEng',
-    category: 'shows',
-    description: 'Comedy web series',
   },
   {
     title: 'Marketing Campaign',
@@ -130,12 +109,6 @@ export const VIDEO_ITEMS = [
     videoId: 'ycD5rQc-_EU',
     category: 'brands',
     description: 'Technology innovation film',
-  },
-  {
-    title: 'Corona Heist',
-    videoId: 'bpGCTZYfQG0',
-    category: 'films',
-    description: 'Short film production',
   },
   {
     title: 'Brand Campaign',
@@ -175,12 +148,7 @@ export const VIDEO_ITEMS = [
   //   description: 'Corporate film',
   //   platform: 'vimeo',
   // },
-  {
-    title: 'Unmaad',
-    videoId: 'kNTT4n67Ofs',
-    category: 'films',
-    description: 'Feature film production',
-  },
+
   // {
   //   title: 'Brand Story',
   //   videoId: 'qXAUCQp2xcw',
@@ -271,12 +239,12 @@ export const VIDEO_ITEMS = [
     category: 'brands',
     description: 'Marketing campaign',
   },
-  {
-    title: 'Corporate Event',
-    videoId: 'ClL445zPZGo',
-    category: 'events',
-    description: 'Business event coverage',
-  },
+ //{
+ // title: 'Corporate Event',
+ //   videoId: 'ClL445zPZGo',
+ //   category: 'events',
+ //   description: 'Business event coverage',
+//  },
   {
     title: 'Brand Story',
     videoId: 'p9zWIfGkFuo',
@@ -324,9 +292,8 @@ export const VIDEO_ITEMS = [
 export const CATEGORIES = [
   { id: 'all', label: 'All Works' },
   { id: 'brands', label: 'Brand Films' },
-  { id: 'shows', label: 'Web Series' },
   { id: 'events', label: 'Events' },
   { id: 'music', label: 'Music Videos' },
   { id: 'travel', label: 'Travel' },
-  { id: 'films', label: 'Films' },
+  
 ];

@@ -58,7 +58,7 @@ const teamMembers = [
   {
     image: mehak,
     name: 'Mehak Malik',
-    role: 'Creative Director for Brand Photography',
+    role: 'Creative Head',
     description:
       'Mehak Malik, with her exceptional photography skills, crafts images that are both aesthetically stunning and deeply evocative. Her eye for detail ensures every frame communicates the intended message with clarity and style.',
   },
@@ -78,19 +78,12 @@ const teamMembers = [
   },
   {
     image: user,
-    name: 'Parveen',
-    role: 'Video Editing, Motion Graphics, and Animation Expert',
+    name: 'Arindam Roy',
+    role: 'Sr. Creative Director, Writer',
     description:
-      "Parveen specializes in motion graphics and animation, creating visually dynamic elements that add depth and energy to our projects. His innovative approach ensures every animation is not only visually stunning but also aligned with the project's narrative.",
+      'With 17 years of work experience, Arindam Roy, has been associated with leading global and independent advertising network agencies - mainline, digital and experiential. Holding National and international awards such as: Campaign of the year - Global Summit, Young Lotus Adfest Bangkok, Indian Digital Marketing Awards, Asian Consumer Engagement Forum (ACEF), Mad Over Marketing (M.O.M), he has had a vast experience working as a creative communication professional with McCann Worldgroup, BBDO Worldwide, Publicis India, Digitas, Hakuhodo Inc, Reckitt Benckiser (RB) and Radio Mirchi 98.3 FM. Some notable brands where his campaigns have left everything but carbon footprint, are: Maruti, Nexa, Daikin, Canon, Suzuki 2 wheelers, BYJU’s, Honda 2 wheeler, Dabur, Coca Cola, Pepsico 7Up, Bata, Network 18, HCL Technologies, Amazon, Sleepwell Mattresses, Radico, Candor Techspace. Arindam’s work been featured on Brand equity, Economic Times, Best media info, Adage India, and other top media publications.',
   },
-  {
-    image: user,
-    name: 'Parth',
-    role: 'Content Writer',
-    description:
-      'Parth, our skilled Content Writer, brings 5 years of experience in crafting compelling and impactful narratives. With a talent for weaving words into engaging stories, Parth plays a vital role in shaping the voice of our brand and projects.',
-  },
-  {
+   {
     image: user,
     name: 'Atharv Singh',
     role: 'Digital Marketing Partner',
