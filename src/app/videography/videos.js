@@ -1,5 +1,11 @@
 export const VIDEO_ITEMS = [
   {
+    title: '25 Years of Partnership | Gates Foundation',
+    videoId: 'v=T_bIUw7GdTU',
+    category: 'brands',
+    description: '',
+  },
+  {
     title: 'BMW Films',
     videoId: 'wTjB4bLzHKo',
     category: 'brands',
