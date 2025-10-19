@@ -60,23 +60,14 @@ export default function Contact() {
                       Call Us
                     </h3>
                     <a
-                      href='tel:+919013218028'
+                      href='tel:+919625934131
+'
                       className='text-gray-300 block hover:text-blue-400 transition-colors'
                     >
-                      +91 9013218028
+                      +91 9625934131
+
                     </a>
-                    <a
-                      href='tel:+919540998320'
-                      className='text-gray-300 block hover:text-blue-400 transition-colors'
-                    >
-                      +91 9540998320
-                    </a>
-                     <a
-                      href='tel:+919871468120'
-                      className='text-gray-300 block hover:text-blue-400 transition-colors'
-                    >
-                      +91 9871468120
-                    </a>
+                    
                     </div>
                 </div>
               </div>
