@@ -33,7 +33,9 @@ export default function Contact() {
                       Visit Us
                     </h3>
                     <p className='text-gray-300'>
-                      Delhi Office: G-58, Nairana Vihar,
+                      Delhi Office: G-58,
+                      <br />
+                      Nairana Vihar,
                       <br />
                       New Delhi - 110025
                     </p>
