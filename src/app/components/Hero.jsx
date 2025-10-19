@@ -34,12 +34,15 @@ export default function Hero() {
           <span className='animate-text-draw block uppercase'>Zerography</span>
         </h1>
         <p className='text-base sm:text-lg md:text-xl mb-8 text-gray-500 animate-fade-in-up'>
-Zerography Production is a creative media agency led by Kuldeep Chauhan (Founder)     
+Zerography Production is a creative media agency led by Kuldeep Chauhan (Founder)   
+           </p>
           <p className='text-base sm:text-lg md:text-xl mb-8 text-gray-500 animate-fade-in-up'>
 along with creative partners Nitin and Vipin.Together we deliver films, photography, and branding solutions 
-across India.©️ 2024 Zerography Production All rights reserved.     
+across India.    
         </p>
-        </p>
+        <p className='text-base sm:text-lg md:text-xl mb-8 text-gray-500 animate-fade-in-up'>
+©️ 2024 Zerography Production All rights reserved. 
+           </p>
       </div>
 
       {/* Light Effect - Only render on non-touch devices */}
