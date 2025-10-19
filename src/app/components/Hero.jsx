@@ -35,7 +35,7 @@ export default function Hero() {
         </h1>
         <p className='text-base sm:text-lg md:text-xl mb-8 text-gray-500 animate-fade-in-up'>
 Zerography Production is a creative media agency led by Kuldeep Chauhan (Founder)   
-along with creative partners Nitin and Vipin.Together we deliver films, photography, and branding solutions 
+along with creative partners Nitin Pal and Vipin Pal. Together we deliver films, photography, and branding solutions 
 across India. ©️ 2024 Zerography Production All rights reserved.    
        </p>
       </div>
