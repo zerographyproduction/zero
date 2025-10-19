@@ -84,7 +84,7 @@ export default function About() {
 
             <p className='fade-up text-xl text-gray-300 leading-relaxed pl-6'>
               Founded by Kuldeep Chauhan, Zerography Production is a registered creative production firm (GST Registered).
-The agency is powered by a passionate core team — Nitin, Vipin, and Kuldeep — combining expertise in direction, cinematography, and production management.
+The agency is powered by a passionate core team — Nitin pal , Vipin pal , and Kuldeep Chauhan— combining expertise in direction, cinematography, and production management.
 Together, the trio brings unique vision and craftsmanship to every project, ensuring high-end visual storytelling for brands, weddings, and films.
             </p>
 
