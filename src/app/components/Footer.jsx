@@ -66,7 +66,7 @@ export default function Footer() {
         <div className='container mx-auto px-4 py-4 sm:py-6'>
           <div className='flex flex-col sm:flex-row justify-between items-center gap-4 sm:gap-0'>
             <p className='text-gray-400 text-xs sm:text-sm text-center sm:text-left'>
-              ©️ 2024 Zerography Production — A creative partnership led by Kuldeep Chauhan with Nitin & Vipin. All rights reserved.
+              ©️ 2024 Zerography Production — A creative partnership led by Kuldeep Chauhan with Nitin Pal & Vipin Pal. All rights reserved.
             </p>
             <nav>
               <ul className='flex gap-4 sm:gap-8 flex-wrap justify-center'>
