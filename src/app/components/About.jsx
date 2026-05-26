@@ -25,7 +25,7 @@ export default function About() {
   }, []);
 
   return (
-    <section className='relative min-h-screen flex items-center py-20 overflow-hidden'>
+    <section id='about' className='relative min-h-screen flex items-center py-20 overflow-hidden'>
       {/* Background Image with Overlay */}
       <div className='absolute inset-0 z-0'>
         <Image

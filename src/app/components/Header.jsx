@@ -116,14 +116,16 @@ export default function Header() {
             </div>
 
             <Link
-              href='/about'
+              href='/#about'
               className='text-white hover:text-gray-300 transition-colors'
+              scroll={true}
             >
               About
             </Link>
             <Link
-              href='/contact'
+              href='/#contact'
               className='text-white hover:text-gray-300 transition-colors'
+              scroll={true}
             >
               Contact
             </Link>
@@ -178,14 +180,16 @@ export default function Header() {
               </div>
 
               <Link
-                href='/about'
+                href='/#about'
                 className='text-white hover:text-gray-300 transition-colors'
+                scroll={true}
               >
                 About
               </Link>
               <Link
-                href='/contact'
+                href='/#contact'
                 className='text-white hover:text-gray-300 transition-colors'
+                scroll={true}
               >
                 Contact
               </Link>

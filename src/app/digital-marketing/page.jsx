@@ -16,6 +16,7 @@ import {
 } from 'lucide-react';
 import DigitalMarketingHero from './DigitalMarketingHero';
 import Image from 'next/image';
+import HorizontalHeading from '/src/app/components/HorizontalHeading';
 
 const portfolioItems = [
   'https://res.cloudinary.com/dd87wq4wp/image/upload/v1734257199/digital-marketing/yfdz0oqnz6hl6gkszqek.png',
@@ -32,6 +33,21 @@ const portfolioItems = [
   'https://res.cloudinary.com/dd87wq4wp/image/upload/v1734257177/digital-marketing/yzine19h757fnndejjrq.png',
   'https://res.cloudinary.com/dd87wq4wp/image/upload/v1734257176/digital-marketing/mz2jvrtk26gtc0e9juyo.png',
 ];
+
+const DigitalMarketingIntro = () => (
+  <div className='max-w-4xl mx-auto py-6 px-4 sm:px-6'>
+    <p className='text-base sm:text-xl text-gray-300 leading-relaxed space-y-2'>
+      At ZEROGRAPHY PRODUCTION,{' '}
+      <span className='text-teal-400 font-medium'>
+        Powered by Adroit Buzz
+      </span>
+      , We Elevate Your Business with Digital Marketing. Transform your online
+      presence with expert digital marketing services. From SEO to social media
+      marketing, PPC, and content creation, we craft strategies that drive
+      traffic, boost engagement, and maximize ROI. Let's grow together!
+    </p>
+  </div>
+);
 
 function DigitalMarketingPortfolio() {
   const [hoveredItem, setHoveredItem] = useState(null);
@@ -353,22 +369,11 @@ export default function DigitalMarketingPage() {
 
   return (
     <div className='min-h-screen bg-black'>
+      <HorizontalHeading heading='Digital Marketing' />
+      <DigitalMarketingIntro />
       <DigitalMarketingHero />
       <DigitalMarketingPortfolio />
       <div className='container mx-auto px-4 py-20'>
-        <div className='max-w-4xl mx-auto mb-16'>
-          <p className='text-xl text-gray-300 leading-relaxed'>
-            At ZEROGRAPHY PRODUCTION,{' '}
-            <span className='text-teal-400 font-medium'>
-              Powered by Adroit Buzz
-            </span>
-            , We Elevate Your Business with Digital Marketing. Transform your
-            online presence with expert digital marketing services. From SEO to
-            social media marketing, PPC, and content creation, we craft
-            strategies that drive traffic, boost engagement, and maximize ROI.
-            Let's grow together!
-          </p>
-        </div>
 
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-8'>
           {mainServices.map((service, serviceIndex) => (
