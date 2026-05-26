@@ -81,9 +81,117 @@ export default function Header() {
             />
           </Link>
 
-          {/* Desktop Navigation - Hidden */}
-          <div className='hidden lg:block flex-grow'></div>
+          {/* Desktop Navigation */}
+          <nav className='hidden lg:flex items-center space-x-8'>
+            <Link
+              href='/'
+              className='text-white hover:text-gray-300 transition-colors'
+            >
+              Home
+            </Link>
+
+            {/* Services Dropdown */}
+            <div
+              className='relative'
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}
+            >
+              <button className='text-white hover:text-gray-300 transition-colors flex items-center space-x-1'>
+                <span>Services</span>
+                <ChevronDown className='w-4 h-4' />
+              </button>
+              {servicesOpen && (
+                <div className='absolute top-full left-0 mt-2 w-56 bg-black bg-opacity-90 backdrop-blur-sm rounded-lg shadow-xl py-2'>
+                  {services.map((service) => (
+                    <Link
+                      key={service.name}
+                      href={service.path}
+                      className='block px-4 py-2 text-white hover:bg-white hover:bg-opacity-10 transition-colors'
+                    >
+                      {service.name}
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
+
+            <Link
+              href='/about'
+              className='text-white hover:text-gray-300 transition-colors'
+            >
+              About
+            </Link>
+            <Link
+              href='/contact'
+              className='text-white hover:text-gray-300 transition-colors'
+            >
+              Contact
+            </Link>
+          </nav>
+
+          {/* Mobile Menu Button */}
+          <button
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            className='lg:hidden text-white z-50'
+          >
+            {mobileMenuOpen ? <X className='w-6 h-6' /> : <Menu className='w-6 h-6' />}
+          </button>
         </div>
+
+        {/* Mobile Navigation */}
+        {mobileMenuOpen && (
+          <nav className='lg:hidden mt-4 pb-4'>
+            <div className='flex flex-col space-y-4'>
+              <Link
+                href='/'
+                className='text-white hover:text-gray-300 transition-colors'
+              >
+                Home
+              </Link>
+
+              {/* Mobile Services Dropdown */}
+              <div>
+                <button
+                  onClick={() => setMobileServicesOpen(!mobileServicesOpen)}
+                  className='text-white hover:text-gray-300 transition-colors flex items-center justify-between w-full'
+                >
+                  <span>Services</span>
+                  {mobileServicesOpen ? (
+                    <ChevronDown className='w-4 h-4' />
+                  ) : (
+                    <ChevronRight className='w-4 h-4' />
+                  )}
+                </button>
+                {mobileServicesOpen && (
+                  <div className='ml-4 mt-2 space-y-2'>
+                    {services.map((service) => (
+                      <Link
+                        key={service.name}
+                        href={service.path}
+                        className='block text-gray-300 hover:text-white transition-colors'
+                      >
+                        {service.name}
+                      </Link>
+                    ))}
+                  </div>
+                )}
+              </div>
+
+              <Link
+                href='/about'
+                className='text-white hover:text-gray-300 transition-colors'
+              >
+                About
+              </Link>
+              <Link
+                href='/contact'
+                className='text-white hover:text-gray-300 transition-colors'
+              >
+                Contact
+              </Link>
+            </div>
+          </nav>
+        )}
       </div>
     </header>
   );
